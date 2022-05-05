@@ -1,0 +1,11 @@
+{
+    "name": "EmailData",
+    "namespace": "org.example.event",
+    "type": "record",
+    "fields": [
+        {"name": "userId", "type": "string"},
+        {"name": "mailTitle", "type": "string"},
+        {"name": "emailUseYn", "type": "string"},
+        {"name": "couponNumber", "type": "string"}
+    ]
+}
